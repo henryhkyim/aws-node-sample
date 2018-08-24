@@ -1,0 +1,31 @@
+{
+  "name": "aws-node-sample",
+  "version": "1.0.0",
+  "description": "aws node and react js sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node prod-server.js",
+    "dev": "webpack -d && webpack-dev-server --content-base src\\ --inline --hot",
+    "build-prod": "webpack -p && copy src\\index.html dist\\index.html && copy package.json dist\\package.json && copy src\\prod-server.js dist\\prod-server.js",
+    "prod": "webpack --config webpack.config.js"
+  },
+  "author": "Henry Yim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
