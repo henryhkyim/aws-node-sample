@@ -1,6 +1,6 @@
 # aws-node-sample
 
-A template / sample to build and deploy node and react application to AWS.
+A template / sample to build and deploy node and react application to AWS Elastic Beanstalk.
 
 1. npm install
 2. npm run dev
