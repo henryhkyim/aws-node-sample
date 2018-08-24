@@ -10,3 +10,5 @@ A template / sample to build and deploy node and react application to AWS Elasti
 4. create/deploy new node.js application in AWS Elastic Beanstalk
    a. Zip everything in dist folder
    b. Upload zip file to AWS Elastic Beanstalk application
+5. npm start
+   To run the prod-server.js in production enviornment
